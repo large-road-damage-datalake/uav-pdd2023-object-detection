@@ -26,6 +26,9 @@
   },
   "imaging_setup": {
     "camera": "UAV-mounted RGB camera",
+    "camera_viewpoint": [
+      "top-down"
+    ],
     "resolution": "2592x1944",
     "lighting_conditions": "Two weather conditions with varied outdoor illumination",
     "capture_height_mm": 30000,
