@@ -58,5 +58,6 @@
       2152
     ]
   ],
-  "title": "Class Co-occurrence (images containing class pairs)"
+  "title": "Co-occurrence Matrix",
+  "description": "Cell [i,j] is number of images that contain both classes i and j."
 }

@@ -1,6 +1,6 @@
 # Summary
 
-- Dataset package: UAV-PDD2023 Object Detection
+- Dataset package: UAV-PDD2023
 - Source dataset: UAV-PDD2023
 - Task: object_detection
 - Image count: 2440

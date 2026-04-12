@@ -1,0 +1,510 @@
+{
+  "version": 1,
+  "default_view": "all",
+  "view_order": [
+    "all"
+  ],
+  "views": {
+    "all": {
+      "id": "all",
+      "label": "All",
+      "split_names": [
+        "data"
+      ],
+      "summary": {
+        "num_images": 2440,
+        "num_annotations": 11158,
+        "num_images_with_annotations": 2425,
+        "num_images_without_annotations": 15,
+        "num_classes": 6,
+        "annotation_coverage": 0.993852,
+        "class_distribution": {
+          "Transverse crack": 5398,
+          "Alligator crack": 603,
+          "Oblique crack": 1686,
+          "Longitudinal crack": 2994,
+          "Pothole": 195,
+          "Repair": 282
+        }
+      },
+      "artifacts": {
+        "class_balance": {
+          "columns": [
+            "Class",
+            "Images",
+            "Objects",
+            "Count on image, average",
+            "Area on image, average (%)"
+          ],
+          "data": [
+            [
+              "Transverse crack",
+              2152,
+              5398,
+              2.5084,
+              2.9197
+            ],
+            [
+              "Longitudinal crack",
+              1230,
+              2994,
+              2.4341,
+              2.5177
+            ],
+            [
+              "Oblique crack",
+              843,
+              1686,
+              2.0,
+              2.507
+            ],
+            [
+              "Alligator crack",
+              408,
+              603,
+              1.4779,
+              3.3373
+            ],
+            [
+              "Repair",
+              180,
+              282,
+              1.5667,
+              7.0261
+            ],
+            [
+              "Pothole",
+              132,
+              195,
+              1.4773,
+              0.3942
+            ]
+          ],
+          "description": "Images column counts images containing at least one object of class.",
+          "options": {
+            "sort": {
+              "columnIndex": 2,
+              "order": "desc"
+            },
+            "pageSize": 100
+          }
+        },
+        "class_cooccurrence": {
+          "type": "matrix",
+          "labels": [
+            "Alligator crack",
+            "Longitudinal crack",
+            "Oblique crack",
+            "Pothole",
+            "Repair",
+            "Transverse crack"
+          ],
+          "data": [
+            [
+              408,
+              291,
+              213,
+              27,
+              24,
+              354
+            ],
+            [
+              291,
+              1230,
+              540,
+              51,
+              90,
+              1044
+            ],
+            [
+              213,
+              540,
+              843,
+              51,
+              90,
+              720
+            ],
+            [
+              27,
+              51,
+              51,
+              132,
+              0,
+              120
+            ],
+            [
+              24,
+              90,
+              90,
+              0,
+              180,
+              93
+            ],
+            [
+              354,
+              1044,
+              720,
+              120,
+              93,
+              2152
+            ]
+          ],
+          "title": "Co-occurrence Matrix",
+          "description": "Cell [i,j] is number of images that contain both classes i and j."
+        },
+        "class_sizes": {
+          "columns": [
+            "Class",
+            "Object count",
+            "Avg area (%)",
+            "Max area (%)",
+            "Min area (%)",
+            "Min height (px)",
+            "Min height (%)",
+            "Max height (px)",
+            "Max height (%)",
+            "Avg height (px)",
+            "Avg height (%)"
+          ],
+          "data": [
+            [
+              "Transverse crack",
+              5398,
+              1.164,
+              17.3418,
+              0.0095,
+              12.0,
+              0.6173,
+              1893.0,
+              97.3765,
+              99.97,
+              5.1424
+            ],
+            [
+              "Longitudinal crack",
+              2994,
+              1.0343,
+              14.4614,
+              0.015,
+              27.0,
+              1.3889,
+              1940.0,
+              99.7942,
+              474.19,
+              24.3926
+            ],
+            [
+              "Oblique crack",
+              1686,
+              1.2535,
+              21.0963,
+              0.0115,
+              17.0,
+              0.8745,
+              1285.0,
+              66.1008,
+              161.67,
+              8.3162
+            ],
+            [
+              "Alligator crack",
+              603,
+              2.2581,
+              34.2964,
+              0.0387,
+              26.0,
+              1.3374,
+              1911.0,
+              98.3025,
+              316.27,
+              16.2689
+            ],
+            [
+              "Repair",
+              282,
+              4.4848,
+              16.6888,
+              0.1012,
+              55.0,
+              2.8292,
+              1936.0,
+              99.5885,
+              477.99,
+              24.5877
+            ],
+            [
+              "Pothole",
+              195,
+              0.2669,
+              2.1599,
+              0.0077,
+              13.0,
+              0.6687,
+              1196.0,
+              61.5226,
+              122.92,
+              6.3232
+            ]
+          ],
+          "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
+        },
+        "objects_distribution": {
+          "type": "heatmap",
+          "title": "Objects on images - distribution for every class",
+          "x_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16"
+          ],
+          "y_labels": [
+            "Transverse crack",
+            "Longitudinal crack",
+            "Oblique crack",
+            "Alligator crack",
+            "Repair",
+            "Pothole"
+          ],
+          "z": [
+            [
+              288,
+              645,
+              636,
+              438,
+              211,
+              132,
+              48,
+              18,
+              6,
+              0,
+              12,
+              0,
+              3,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              1210,
+              594,
+              237,
+              135,
+              99,
+              48,
+              36,
+              42,
+              15,
+              6,
+              12,
+              3,
+              0,
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              1597,
+              474,
+              180,
+              75,
+              48,
+              30,
+              9,
+              9,
+              6,
+              6,
+              3,
+              0,
+              3,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2032,
+              300,
+              66,
+              12,
+              18,
+              9,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2260,
+              120,
+              27,
+              27,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2308,
+              90,
+              24,
+              15,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "description": "Value = number of images where class has exactly x objects."
+        },
+        "classes_per_image": {
+          "type": "histogram",
+          "title": "Distinct classes per image",
+          "series": [
+            {
+              "name": "classes",
+              "data": [
+                {
+                  "x": "0",
+                  "y": 15
+                },
+                {
+                  "x": "1",
+                  "y": 859
+                },
+                {
+                  "x": "2",
+                  "y": 831
+                },
+                {
+                  "x": "3",
+                  "y": 531
+                },
+                {
+                  "x": "4",
+                  "y": 189
+                },
+                {
+                  "x": "5",
+                  "y": 15
+                }
+              ]
+            }
+          ]
+        },
+        "classes_treemap": {
+          "type": "treemap",
+          "title": "Average area of class objects on image",
+          "series": [
+            {
+              "data": [
+                {
+                  "x": "Transverse crack",
+                  "y": 2.9197
+                },
+                {
+                  "x": "Longitudinal crack",
+                  "y": 2.5177
+                },
+                {
+                  "x": "Oblique crack",
+                  "y": 2.507
+                },
+                {
+                  "x": "Alligator crack",
+                  "y": 3.3373
+                },
+                {
+                  "x": "Repair",
+                  "y": 7.0261
+                },
+                {
+                  "x": "Pothole",
+                  "y": 0.3942
+                }
+              ]
+            }
+          ],
+          "value_unit": "%"
+        }
+      },
+      "samples_summary": {
+        "sample_count": 10,
+        "slider_pairs": 10,
+        "samples_dir": "visualizations/samples",
+        "samples_manifest": "visualizations/samples/samples_manifest.json",
+        "annotated_samples_dir": "visualizations/samples/annotated",
+        "sample_annotations_dir": "visualizations/samples/annotations"
+      },
+      "spatial_heatmaps": {
+        "generated": true,
+        "dir": "visualizations/spatial_heatmaps",
+        "classes": [
+          {
+            "class": "Transverse crack",
+            "file": "visualizations/spatial_heatmaps/Transverse_crack.png"
+          },
+          {
+            "class": "Longitudinal crack",
+            "file": "visualizations/spatial_heatmaps/Longitudinal_crack.png"
+          },
+          {
+            "class": "Oblique crack",
+            "file": "visualizations/spatial_heatmaps/Oblique_crack.png"
+          },
+          {
+            "class": "Alligator crack",
+            "file": "visualizations/spatial_heatmaps/Alligator_crack.png"
+          },
+          {
+            "class": "Repair",
+            "file": "visualizations/spatial_heatmaps/Repair.png"
+          },
+          {
+            "class": "Pothole",
+            "file": "visualizations/spatial_heatmaps/Pothole.png"
+          }
+        ]
+      }
+    }
+  }
+}

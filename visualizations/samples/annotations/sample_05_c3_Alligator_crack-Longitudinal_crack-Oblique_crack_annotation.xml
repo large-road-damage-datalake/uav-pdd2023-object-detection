@@ -1,0 +1,49 @@
+<annotation>
+  <folder/>
+  <filename>tb_00067_top_left.jpg</filename>
+  <database/>
+  <annotation/>
+  <image/>
+  <size>
+    <height>1944</height>
+    <width>2592</width>
+    <depth>3</depth>
+  </size>
+  <segmented/>
+  <object>
+    <name>Oblique crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>1492</xmin>
+      <ymin>1374</ymin>
+      <xmax>2581</xmax>
+      <ymax>1893</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Alligator crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>603</xmin>
+      <ymin>1715</ymin>
+      <xmax>1489</xmax>
+      <ymax>1933</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Longitudinal crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>2469</xmin>
+      <ymin>11</ymin>
+      <xmax>2589</xmax>
+      <ymax>1222</ymax>
+    </bndbox>
+  </object>
+</annotation>

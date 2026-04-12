@@ -1,0 +1,61 @@
+<annotation>
+  <folder/>
+  <filename>lr_00395_top_left.jpg</filename>
+  <database/>
+  <annotation/>
+  <image/>
+  <size>
+    <height>1944</height>
+    <width>2592</width>
+    <depth>3</depth>
+  </size>
+  <segmented/>
+  <object>
+    <name>Transverse crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>978</xmin>
+      <ymin>791</ymin>
+      <xmax>1787</xmax>
+      <ymax>907</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Longitudinal crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>2043</xmin>
+      <ymin>417</ymin>
+      <xmax>2131</xmax>
+      <ymax>930</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Longitudinal crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>883</xmin>
+      <ymin>1108</ymin>
+      <xmax>929</xmax>
+      <ymax>1256</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Transverse crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>1460</xmin>
+      <ymin>1842</ymin>
+      <xmax>1782</xmax>
+      <ymax>1906</ymax>
+    </bndbox>
+  </object>
+</annotation>

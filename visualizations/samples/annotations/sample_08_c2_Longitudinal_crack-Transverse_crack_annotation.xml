@@ -1,0 +1,97 @@
+<annotation>
+  <folder/>
+  <filename>r180_00419_top_left.jpg</filename>
+  <database/>
+  <annotation/>
+  <image/>
+  <size>
+    <height>1944</height>
+    <width>2592</width>
+    <depth>3</depth>
+  </size>
+  <segmented/>
+  <object>
+    <name>Transverse crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>2173</xmin>
+      <ymin>1129</ymin>
+      <xmax>2236</xmax>
+      <ymax>1167</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Transverse crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>1751</xmin>
+      <ymin>1118</ymin>
+      <xmax>2109</xmax>
+      <ymax>1170</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Transverse crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>1830</xmin>
+      <ymin>1495</ymin>
+      <xmax>2176</xmax>
+      <ymax>1548</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Longitudinal crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>1992</xmin>
+      <ymin>678</ymin>
+      <xmax>2134</xmax>
+      <ymax>1908</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Longitudinal crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>1975</xmin>
+      <ymin>261</ymin>
+      <xmax>2086</xmax>
+      <ymax>735</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Transverse crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>1676</xmin>
+      <ymin>153</ymin>
+      <xmax>2081</xmax>
+      <ymax>292</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Longitudinal crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>209</xmin>
+      <ymin>1812</ymin>
+      <xmax>247</xmax>
+      <ymax>1922</ymax>
+    </bndbox>
+  </object>
+</annotation>

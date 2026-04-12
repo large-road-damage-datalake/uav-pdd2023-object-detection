@@ -1,0 +1,109 @@
+<annotation>
+  <folder/>
+  <filename>lr_00088_bottom_right.jpg</filename>
+  <database/>
+  <annotation/>
+  <image/>
+  <size>
+    <height>1944</height>
+    <width>2592</width>
+    <depth>3</depth>
+  </size>
+  <segmented/>
+  <object>
+    <name>Longitudinal crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>1711</xmin>
+      <ymin>1158</ymin>
+      <xmax>1785</xmax>
+      <ymax>1260</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Oblique crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>1617</xmin>
+      <ymin>1264</ymin>
+      <xmax>1728</xmax>
+      <ymax>1435</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Longitudinal crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>1687</xmin>
+      <ymin>1529</ymin>
+      <xmax>1746</xmax>
+      <ymax>1635</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Oblique crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>1711</xmin>
+      <ymin>1658</ymin>
+      <xmax>1781</xmax>
+      <ymax>1735</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Longitudinal crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>1619</xmin>
+      <ymin>1803</ymin>
+      <xmax>1677</xmax>
+      <ymax>1943</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Transverse crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>2477</xmin>
+      <ymin>10</ymin>
+      <xmax>2589</xmax>
+      <ymax>713</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Transverse crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>815</xmin>
+      <ymin>990</ymin>
+      <xmax>2578</xmax>
+      <ymax>1180</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Transverse crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>888</xmin>
+      <ymin>1720</ymin>
+      <xmax>2586</xmax>
+      <ymax>1934</ymax>
+    </bndbox>
+  </object>
+</annotation>

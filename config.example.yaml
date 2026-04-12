@@ -9,6 +9,9 @@ year: 2024
 # Task Type: object_detection, segmentation, classification
 task_type: "object_detection"
 
+# Optional when task_type="segmentation": semantic_segmentation | instance_segmentation | panoptic_segmentation
+# segmentation_type: "semantic_segmentation"
+
 # Format: 
 #  - coco: Common Objects in Context JSON format
 #  - yolo: Space-separated TXT files (class x y w h)

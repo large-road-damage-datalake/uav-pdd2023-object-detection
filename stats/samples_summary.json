@@ -1,0 +1,8 @@
+{
+  "sample_count": 10,
+  "slider_pairs": 10,
+  "samples_dir": "visualizations/samples",
+  "samples_manifest": "visualizations/samples/samples_manifest.json",
+  "annotated_samples_dir": "visualizations/samples/annotated",
+  "sample_annotations_dir": "visualizations/samples/annotations"
+}

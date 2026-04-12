@@ -19,7 +19,10 @@
       "Pothole",
       "Repair",
       "Transverse crack"
-    ]
+    ],
+    "task_classification": {
+      "primary_task": "object_detection"
+    }
   },
   "imaging_setup": {
     "camera": "UAV-mounted RGB camera",
@@ -75,7 +78,7 @@
   "statistics": {
     "n_images": 2440,
     "n_annotations": 11158,
-    "n_images_with_annotations": 2440,
+    "n_images_with_annotations": 2425,
     "average_annotations_per_image": 4.572950819672132,
     "image_format": "voc",
     "class_distribution": {
@@ -89,7 +92,9 @@
     "split": {
       "data": {
         "n_images": 2440,
-        "percentage": 1.0
+        "percentage": 1.0,
+        "n_images_with_annotations": 2425,
+        "annotation_coverage": 0.9939
       }
     }
   },

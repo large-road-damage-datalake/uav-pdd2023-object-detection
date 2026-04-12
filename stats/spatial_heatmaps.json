@@ -1,0 +1,30 @@
+{
+  "generated": true,
+  "dir": "visualizations/spatial_heatmaps",
+  "classes": [
+    {
+      "class": "Transverse crack",
+      "file": "visualizations/spatial_heatmaps/Transverse_crack.png"
+    },
+    {
+      "class": "Longitudinal crack",
+      "file": "visualizations/spatial_heatmaps/Longitudinal_crack.png"
+    },
+    {
+      "class": "Oblique crack",
+      "file": "visualizations/spatial_heatmaps/Oblique_crack.png"
+    },
+    {
+      "class": "Alligator crack",
+      "file": "visualizations/spatial_heatmaps/Alligator_crack.png"
+    },
+    {
+      "class": "Repair",
+      "file": "visualizations/spatial_heatmaps/Repair.png"
+    },
+    {
+      "class": "Pothole",
+      "file": "visualizations/spatial_heatmaps/Pothole.png"
+    }
+  ]
+}

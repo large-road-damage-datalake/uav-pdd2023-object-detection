@@ -1,8 +1,8 @@
-# UAV-PDD2023 Object Detection
+# UAV-PDD2023
 
 ## Overview
 
-UAV-PDD2023 Object Detection is a task-specific package derived from the UAV-PDD2023 release on Zenodo.
+UAV-PDD2023 is a task-specific package derived from the UAV-PDD2023 release on Zenodo.
 
 - Task: object_detection
 - Images: 2440

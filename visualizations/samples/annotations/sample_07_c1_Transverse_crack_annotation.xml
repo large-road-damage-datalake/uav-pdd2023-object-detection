@@ -1,0 +1,25 @@
+<annotation>
+  <folder/>
+  <filename>tb_00062_bottom_right.jpg</filename>
+  <database/>
+  <annotation/>
+  <image/>
+  <size>
+    <height>1944</height>
+    <width>2592</width>
+    <depth>3</depth>
+  </size>
+  <segmented/>
+  <object>
+    <name>Transverse crack</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>1233</xmin>
+      <ymin>1212</ymin>
+      <xmax>1525</xmax>
+      <ymax>1343</ymax>
+    </bndbox>
+  </object>
+</annotation>

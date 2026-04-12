@@ -1,0 +1,165 @@
+{
+  "samples": [
+    {
+      "file": "sample_01_c3_Oblique_crack-Pothole-Transverse_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAV-PDD2023/images\\r180_00411_bottom_right.jpg",
+      "classes": [
+        "Oblique crack",
+        "Pothole",
+        "Transverse crack"
+      ],
+      "num_classes": 3,
+      "objects": 5,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_01_c3_Oblique_crack-Pothole-Transverse_crack_annotated.png",
+      "annotation_file": "annotations/sample_01_c3_Oblique_crack-Pothole-Transverse_crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_02_c4_Alligator_crack-Longitudinal_crack-Oblique_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAV-PDD2023/images\\r180_00017_bottom_right.jpg",
+      "classes": [
+        "Alligator crack",
+        "Longitudinal crack",
+        "Oblique crack",
+        "Transverse crack"
+      ],
+      "num_classes": 4,
+      "objects": 18,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_02_c4_Alligator_crack-Longitudinal_crack-Oblique_crack_annotated.png",
+      "annotation_file": "annotations/sample_02_c4_Alligator_crack-Longitudinal_crack-Oblique_crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_03_c3_Longitudinal_crack-Oblique_crack-Transverse_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAV-PDD2023/images\\lr_00088_bottom_right.jpg",
+      "classes": [
+        "Longitudinal crack",
+        "Oblique crack",
+        "Transverse crack"
+      ],
+      "num_classes": 3,
+      "objects": 8,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_03_c3_Longitudinal_crack-Oblique_crack-Transverse_crack_annotated.png",
+      "annotation_file": "annotations/sample_03_c3_Longitudinal_crack-Oblique_crack-Transverse_crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_04_c3_Longitudinal_crack-Repair-Transverse_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAV-PDD2023/images\\lr_00088_bottom_left.jpg",
+      "classes": [
+        "Longitudinal crack",
+        "Repair",
+        "Transverse crack"
+      ],
+      "num_classes": 3,
+      "objects": 7,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_04_c3_Longitudinal_crack-Repair-Transverse_crack_annotated.png",
+      "annotation_file": "annotations/sample_04_c3_Longitudinal_crack-Repair-Transverse_crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_05_c3_Alligator_crack-Longitudinal_crack-Oblique_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAV-PDD2023/images\\tb_00067_top_left.jpg",
+      "classes": [
+        "Alligator crack",
+        "Longitudinal crack",
+        "Oblique crack"
+      ],
+      "num_classes": 3,
+      "objects": 3,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_05_c3_Alligator_crack-Longitudinal_crack-Oblique_crack_annotated.png",
+      "annotation_file": "annotations/sample_05_c3_Alligator_crack-Longitudinal_crack-Oblique_crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_06_c2_Longitudinal_crack-Transverse_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAV-PDD2023/images\\lr_00395_top_left.jpg",
+      "classes": [
+        "Longitudinal crack",
+        "Transverse crack"
+      ],
+      "num_classes": 2,
+      "objects": 4,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_06_c2_Longitudinal_crack-Transverse_crack_annotated.png",
+      "annotation_file": "annotations/sample_06_c2_Longitudinal_crack-Transverse_crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_07_c1_Transverse_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAV-PDD2023/images\\tb_00062_bottom_right.jpg",
+      "classes": [
+        "Transverse crack"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_07_c1_Transverse_crack_annotated.png",
+      "annotation_file": "annotations/sample_07_c1_Transverse_crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_08_c2_Longitudinal_crack-Transverse_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAV-PDD2023/images\\r180_00419_top_left.jpg",
+      "classes": [
+        "Longitudinal crack",
+        "Transverse crack"
+      ],
+      "num_classes": 2,
+      "objects": 7,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_08_c2_Longitudinal_crack-Transverse_crack_annotated.png",
+      "annotation_file": "annotations/sample_08_c2_Longitudinal_crack-Transverse_crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_09_c5_Alligator_crack-Longitudinal_crack-Oblique_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAV-PDD2023/images\\r180_00527_top_left.jpg",
+      "classes": [
+        "Alligator crack",
+        "Longitudinal crack",
+        "Oblique crack",
+        "Pothole",
+        "Transverse crack"
+      ],
+      "num_classes": 5,
+      "objects": 11,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_09_c5_Alligator_crack-Longitudinal_crack-Oblique_crack_annotated.png",
+      "annotation_file": "annotations/sample_09_c5_Alligator_crack-Longitudinal_crack-Oblique_crack_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_10_c3_Alligator_crack-Longitudinal_crack-Oblique_crack.jpg",
+      "source": "D:/PhD/Datasets/object_detection/UAV-PDD2023/images\\tb_00530_bottom_right.jpg",
+      "classes": [
+        "Alligator crack",
+        "Longitudinal crack",
+        "Oblique crack"
+      ],
+      "num_classes": 3,
+      "objects": 4,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_10_c3_Alligator_crack-Longitudinal_crack-Oblique_crack_annotated.png",
+      "annotation_file": "annotations/sample_10_c3_Alligator_crack-Longitudinal_crack-Oblique_crack_annotation.xml",
+      "slider_ready": true
+    }
+  ],
+  "count": 10,
+  "slider_pairs": 10
+}
