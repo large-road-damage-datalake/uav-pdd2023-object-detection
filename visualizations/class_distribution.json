@@ -1,0 +1,31 @@
+{
+  "type": "bar",
+  "title": "Class Distribution",
+  "data": {
+    "labels": [
+      "Transverse crack",
+      "Alligator crack",
+      "Oblique crack",
+      "Longitudinal crack",
+      "Pothole",
+      "Repair"
+    ],
+    "values": [
+      5398,
+      603,
+      1686,
+      2994,
+      195,
+      282
+    ],
+    "total": 11158,
+    "percentages": [
+      48.38,
+      5.4,
+      15.11,
+      26.83,
+      1.75,
+      2.53
+    ]
+  }
+}

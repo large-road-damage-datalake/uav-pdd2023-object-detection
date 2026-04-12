@@ -1,0 +1,34 @@
+{
+  "type": "treemap",
+  "title": "Class Treemap",
+  "series": [
+    {
+      "data": [
+        {
+          "x": "Transverse crack",
+          "y": 5398
+        },
+        {
+          "x": "Longitudinal crack",
+          "y": 2994
+        },
+        {
+          "x": "Oblique crack",
+          "y": 1686
+        },
+        {
+          "x": "Alligator crack",
+          "y": 603
+        },
+        {
+          "x": "Repair",
+          "y": 282
+        },
+        {
+          "x": "Pothole",
+          "y": 195
+        }
+      ]
+    }
+  ]
+}

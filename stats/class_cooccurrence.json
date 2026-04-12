@@ -1,0 +1,62 @@
+{
+  "type": "matrix",
+  "labels": [
+    "Alligator crack",
+    "Longitudinal crack",
+    "Oblique crack",
+    "Pothole",
+    "Repair",
+    "Transverse crack"
+  ],
+  "data": [
+    [
+      408,
+      291,
+      213,
+      27,
+      24,
+      354
+    ],
+    [
+      291,
+      1230,
+      540,
+      51,
+      90,
+      1044
+    ],
+    [
+      213,
+      540,
+      843,
+      51,
+      90,
+      720
+    ],
+    [
+      27,
+      51,
+      51,
+      132,
+      0,
+      120
+    ],
+    [
+      24,
+      90,
+      90,
+      0,
+      180,
+      93
+    ],
+    [
+      354,
+      1044,
+      720,
+      120,
+      93,
+      2152
+    ]
+  ],
+  "title": "Class Co-occurrence (images containing class pairs)"
+}

@@ -1,0 +1,53 @@
+{
+  "columns": [
+    "Class",
+    "Share(%)",
+    "Objects",
+    "Objects per image"
+  ],
+  "data": [
+    [
+      "Transverse crack",
+      48.38,
+      5398,
+      2.212
+    ],
+    [
+      "Longitudinal crack",
+      26.83,
+      2994,
+      1.227
+    ],
+    [
+      "Oblique crack",
+      15.11,
+      1686,
+      0.691
+    ],
+    [
+      "Alligator crack",
+      5.4,
+      603,
+      0.247
+    ],
+    [
+      "Repair",
+      2.53,
+      282,
+      0.116
+    ],
+    [
+      "Pothole",
+      1.75,
+      195,
+      0.08
+    ]
+  ],
+  "options": {
+    "sort": {
+      "columnIndex": 2,
+      "order": "desc"
+    },
+    "pageSize": 50
+  }
+}

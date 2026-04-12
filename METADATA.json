@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "basic_info": {
+    "id": "uav-pdd2023-object-detection",
+    "name": "UAV-PDD2023 Object Detection",
+    "short_name": "uav-pdd2023-od",
+    "description": "Object detection packaging of UAV-PDD2023, a UAV-captured pavement distress dataset with VOC box-level annotations.",
+    "year": 2023
+  },
+  "project_context": {
+    "task": "object_detection",
+    "tasks": [
+      "object_detection"
+    ],
+    "damage_types": [
+      "Alligator crack",
+      "Longitudinal crack",
+      "Oblique crack",
+      "Pothole",
+      "Repair",
+      "Transverse crack"
+    ]
+  },
+  "imaging_setup": {
+    "camera": "UAV-mounted RGB camera",
+    "resolution": "2592x1944",
+    "lighting_conditions": "Two weather conditions with varied outdoor illumination",
+    "capture_height_mm": 30000,
+    "geotagged": false
+  },
+  "annotation_schema": [
+    {
+      "type": "bounding_box",
+      "description": "PASCAL VOC XML annotations for six pavement distress categories",
+      "classes": [
+        {
+          "id": 1,
+          "name": "Alligator crack",
+          "description": "Alligator/fatigue cracking distress",
+          "color": "#294F71"
+        },
+        {
+          "id": 2,
+          "name": "Longitudinal crack",
+          "description": "Longitudinal crack distress",
+          "color": "#529EE2"
+        },
+        {
+          "id": 3,
+          "name": "Oblique crack",
+          "description": "Oblique crack distress",
+          "color": "#7BED54"
+        },
+        {
+          "id": 4,
+          "name": "Pothole",
+          "description": "Pothole distress",
+          "color": "#A43DC5"
+        },
+        {
+          "id": 5,
+          "name": "Repair",
+          "description": "Patched/repair area",
+          "color": "#CD8C37"
+        },
+        {
+          "id": 6,
+          "name": "Transverse crack",
+          "description": "Transverse crack distress",
+          "color": "#F6DBA8"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "n_images": 2440,
+    "n_annotations": 11158,
+    "n_images_with_annotations": 2440,
+    "average_annotations_per_image": 4.572950819672132,
+    "image_format": "voc",
+    "class_distribution": {
+      "Transverse crack": 5398,
+      "Alligator crack": 603,
+      "Oblique crack": 1686,
+      "Longitudinal crack": 2994,
+      "Pothole": 195,
+      "Repair": 282
+    },
+    "split": {
+      "data": {
+        "n_images": 2440,
+        "percentage": 1.0
+      }
+    }
+  },
+  "geographic_coverage": {
+    "countries": [
+      {
+        "name": "China",
+        "image_count": 2440
+      }
+    ],
+    "temporal_scope": "Published 2023"
+  },
+  "quality_assurance": {
+    "annotation_quality": "Manually annotated VOC bounding boxes in source release",
+    "inter_annotator_agreement": "Not reported",
+    "review_status": "Published benchmark dataset"
+  },
+  "authors": [
+    {
+      "name": "Haohui Yan",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Junfei Zhang",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    }
+  ],
+  "license": "CC BY 4.0",
+  "links": {
+    "github": "https://github.com/large-road-damage-datalake/uav-pdd2023-object-detection",
+    "download": "https://zenodo.org/records/8429208",
+    "paper": "https://www.sciencedirect.com/science/article/pii/S2352340923007710?via%3Dihub",
+    "homepage": "https://zenodo.org/records/8429208"
+  },
+  "citation": {
+    "bibtex": "@article{yan2023uavpdd2023,\n  title = {UAV-PDD2023: A benchmark dataset for pavement distress detection based on UAV images},\n  author = {Yan, Haohui and Zhang, Junfei},\n  journal = {Data in Brief},\n  volume = {51},\n  pages = {109692},\n  year = {2023},\n  doi = {10.1016/j.dib.2023.109692}\n}"
+  },
+  "tags": [
+    "object-detection",
+    "road-damage",
+    "uav-pdd2023",
+    "voc",
+    "uav",
+    "china"
+  ],
+  "source_publication": {
+    "dataset_doi": "10.5281/zenodo.8429208",
+    "article_doi": "10.1016/j.dib.2023.109692",
+    "article_title": "UAV-PDD2023: A benchmark dataset for pavement distress detection based on UAV images",
+    "journal": "Data in Brief",
+    "year": 2023
+  }
+}
