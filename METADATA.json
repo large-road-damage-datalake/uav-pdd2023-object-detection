@@ -83,6 +83,9 @@
     "n_annotations": 11158,
     "n_images_with_annotations": 2425,
     "average_annotations_per_image": 4.572950819672132,
+    "dataset_size": "1.98 GB",
+    "dataset_size_bytes": 2125386093,
+    "dataset_file_count": 4881,
     "image_format": "voc",
     "class_distribution": {
       "Transverse crack": 5398,
@@ -97,7 +100,10 @@
         "n_images": 2440,
         "percentage": 1.0,
         "n_images_with_annotations": 2425,
-        "annotation_coverage": 0.9939
+        "annotation_coverage": 0.9939,
+        "dataset_size": "1.98 GB",
+        "dataset_size_bytes": 2125386093,
+        "dataset_file_count": 4881
       }
     }
   },
