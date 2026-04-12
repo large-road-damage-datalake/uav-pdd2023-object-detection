@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "basic_info": {
     "id": "uav-pdd2023-object-detection",
-    "name": "UAV-PDD2023 Object Detection",
+    "name": "UAV-PDD2023",
     "short_name": "uav-pdd2023-od",
     "description": "Object detection packaging of UAV-PDD2023, a UAV-captured pavement distress dataset with VOC box-level annotations.",
     "year": 2023
