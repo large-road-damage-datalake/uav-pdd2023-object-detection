@@ -10,9 +10,17 @@
       ],
       "num_classes": 3,
       "objects": 5,
+      "image_size": {
+        "width": 1280,
+        "height": 960
+      },
+      "resized_from": {
+        "width": 2592,
+        "height": 1944
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_01_c3_Oblique_crack-Pothole-Transverse_crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_01_c3_Oblique_crack-Pothole-Transverse_crack_annotation.xml",
       "slider_ready": true
     },
@@ -27,9 +35,17 @@
       ],
       "num_classes": 4,
       "objects": 18,
+      "image_size": {
+        "width": 1280,
+        "height": 960
+      },
+      "resized_from": {
+        "width": 2592,
+        "height": 1944
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_02_c4_Alligator_crack-Longitudinal_crack-Oblique_crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_02_c4_Alligator_crack-Longitudinal_crack-Oblique_crack_annotation.xml",
       "slider_ready": true
     },
@@ -43,9 +59,17 @@
       ],
       "num_classes": 3,
       "objects": 8,
+      "image_size": {
+        "width": 1280,
+        "height": 960
+      },
+      "resized_from": {
+        "width": 2592,
+        "height": 1944
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_03_c3_Longitudinal_crack-Oblique_crack-Transverse_crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_03_c3_Longitudinal_crack-Oblique_crack-Transverse_crack_annotation.xml",
       "slider_ready": true
     },
@@ -59,9 +83,17 @@
       ],
       "num_classes": 3,
       "objects": 7,
+      "image_size": {
+        "width": 1280,
+        "height": 960
+      },
+      "resized_from": {
+        "width": 2592,
+        "height": 1944
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_04_c3_Longitudinal_crack-Repair-Transverse_crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_04_c3_Longitudinal_crack-Repair-Transverse_crack_annotation.xml",
       "slider_ready": true
     },
@@ -75,9 +107,17 @@
       ],
       "num_classes": 3,
       "objects": 3,
+      "image_size": {
+        "width": 1280,
+        "height": 960
+      },
+      "resized_from": {
+        "width": 2592,
+        "height": 1944
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_05_c3_Alligator_crack-Longitudinal_crack-Oblique_crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_05_c3_Alligator_crack-Longitudinal_crack-Oblique_crack_annotation.xml",
       "slider_ready": true
     },
@@ -90,9 +130,17 @@
       ],
       "num_classes": 2,
       "objects": 4,
+      "image_size": {
+        "width": 1280,
+        "height": 960
+      },
+      "resized_from": {
+        "width": 2592,
+        "height": 1944
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_06_c2_Longitudinal_crack-Transverse_crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_06_c2_Longitudinal_crack-Transverse_crack_annotation.xml",
       "slider_ready": true
     },
@@ -104,9 +152,17 @@
       ],
       "num_classes": 1,
       "objects": 1,
+      "image_size": {
+        "width": 1280,
+        "height": 960
+      },
+      "resized_from": {
+        "width": 2592,
+        "height": 1944
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_07_c1_Transverse_crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_07_c1_Transverse_crack_annotation.xml",
       "slider_ready": true
     },
@@ -119,9 +175,17 @@
       ],
       "num_classes": 2,
       "objects": 7,
+      "image_size": {
+        "width": 1280,
+        "height": 960
+      },
+      "resized_from": {
+        "width": 2592,
+        "height": 1944
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_08_c2_Longitudinal_crack-Transverse_crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_08_c2_Longitudinal_crack-Transverse_crack_annotation.xml",
       "slider_ready": true
     },
@@ -137,9 +201,17 @@
       ],
       "num_classes": 5,
       "objects": 11,
+      "image_size": {
+        "width": 1280,
+        "height": 960
+      },
+      "resized_from": {
+        "width": 2592,
+        "height": 1944
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_09_c5_Alligator_crack-Longitudinal_crack-Oblique_crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_09_c5_Alligator_crack-Longitudinal_crack-Oblique_crack_annotation.xml",
       "slider_ready": true
     },
@@ -153,9 +225,17 @@
       ],
       "num_classes": 3,
       "objects": 4,
+      "image_size": {
+        "width": 1280,
+        "height": 960
+      },
+      "resized_from": {
+        "width": 2592,
+        "height": 1944
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_10_c3_Alligator_crack-Longitudinal_crack-Oblique_crack_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_10_c3_Alligator_crack-Longitudinal_crack-Oblique_crack_annotation.xml",
       "slider_ready": true
     }

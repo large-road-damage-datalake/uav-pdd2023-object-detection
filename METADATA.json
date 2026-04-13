@@ -32,7 +32,13 @@
     "resolution": "2592x1944",
     "lighting_conditions": "Two weather conditions with varied outdoor illumination",
     "capture_height_mm": 30000,
-    "geotagged": false
+    "geotagged": false,
+    "resolution_details": [
+      {
+        "resolution": "2592x1944",
+        "count": 2440
+      }
+    ]
   },
   "annotation_schema": [
     {

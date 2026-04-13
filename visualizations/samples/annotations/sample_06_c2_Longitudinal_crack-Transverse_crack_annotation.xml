@@ -1,61 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
 <annotation>
-  <folder/>
+  <folder />
   <filename>lr_00395_top_left.jpg</filename>
-  <database/>
-  <annotation/>
-  <image/>
+  <database />
+  <annotation />
+  <image />
   <size>
-    <height>1944</height>
-    <width>2592</width>
+    <height>960</height>
+    <width>1280</width>
     <depth>3</depth>
   </size>
-  <segmented/>
+  <segmented />
   <object>
     <name>Transverse crack</name>
-    <pose/>
-    <truncated/>
-    <difficult/>
+    <pose />
+    <truncated />
+    <difficult />
     <bndbox>
-      <xmin>978</xmin>
-      <ymin>791</ymin>
-      <xmax>1787</xmax>
-      <ymax>907</ymax>
+      <xmin>483</xmin>
+      <ymin>391</ymin>
+      <xmax>882</xmax>
+      <ymax>448</ymax>
     </bndbox>
   </object>
   <object>
     <name>Longitudinal crack</name>
-    <pose/>
-    <truncated/>
-    <difficult/>
+    <pose />
+    <truncated />
+    <difficult />
     <bndbox>
-      <xmin>2043</xmin>
-      <ymin>417</ymin>
-      <xmax>2131</xmax>
-      <ymax>930</ymax>
+      <xmin>1009</xmin>
+      <ymin>206</ymin>
+      <xmax>1052</xmax>
+      <ymax>459</ymax>
     </bndbox>
   </object>
   <object>
     <name>Longitudinal crack</name>
-    <pose/>
-    <truncated/>
-    <difficult/>
+    <pose />
+    <truncated />
+    <difficult />
     <bndbox>
-      <xmin>883</xmin>
-      <ymin>1108</ymin>
-      <xmax>929</xmax>
-      <ymax>1256</ymax>
+      <xmin>436</xmin>
+      <ymin>547</ymin>
+      <xmax>459</xmax>
+      <ymax>620</ymax>
     </bndbox>
   </object>
   <object>
     <name>Transverse crack</name>
-    <pose/>
-    <truncated/>
-    <difficult/>
+    <pose />
+    <truncated />
+    <difficult />
     <bndbox>
-      <xmin>1460</xmin>
-      <ymin>1842</ymin>
-      <xmax>1782</xmax>
-      <ymax>1906</ymax>
+      <xmin>721</xmin>
+      <ymin>910</ymin>
+      <xmax>880</xmax>
+      <ymax>941</ymax>
     </bndbox>
   </object>
 </annotation>

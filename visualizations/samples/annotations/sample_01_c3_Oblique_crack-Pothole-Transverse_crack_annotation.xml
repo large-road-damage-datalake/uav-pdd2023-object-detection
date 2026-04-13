@@ -1,73 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
 <annotation>
-  <folder/>
+  <folder />
   <filename>r180_00411_bottom_right.jpg</filename>
-  <database/>
-  <annotation/>
-  <image/>
+  <database />
+  <annotation />
+  <image />
   <size>
-    <height>1944</height>
-    <width>2592</width>
+    <height>960</height>
+    <width>1280</width>
     <depth>3</depth>
   </size>
-  <segmented/>
+  <segmented />
   <object>
     <name>Transverse crack</name>
-    <pose/>
-    <truncated/>
-    <difficult/>
+    <pose />
+    <truncated />
+    <difficult />
     <bndbox>
-      <xmin>2019</xmin>
-      <ymin>1876</ymin>
-      <xmax>2143</xmax>
-      <ymax>1907</ymax>
+      <xmin>997</xmin>
+      <ymin>926</ymin>
+      <xmax>1058</xmax>
+      <ymax>942</ymax>
     </bndbox>
   </object>
   <object>
     <name>Oblique crack</name>
-    <pose/>
-    <truncated/>
-    <difficult/>
+    <pose />
+    <truncated />
+    <difficult />
     <bndbox>
-      <xmin>2087</xmin>
-      <ymin>956</ymin>
-      <xmax>2117</xmax>
-      <ymax>983</ymax>
+      <xmin>1031</xmin>
+      <ymin>472</ymin>
+      <xmax>1045</xmax>
+      <ymax>485</ymax>
     </bndbox>
   </object>
   <object>
     <name>Transverse crack</name>
-    <pose/>
-    <truncated/>
-    <difficult/>
+    <pose />
+    <truncated />
+    <difficult />
     <bndbox>
-      <xmin>260</xmin>
-      <ymin>957</ymin>
-      <xmax>301</xmax>
-      <ymax>983</ymax>
+      <xmin>128</xmin>
+      <ymin>473</ymin>
+      <xmax>149</xmax>
+      <ymax>485</ymax>
     </bndbox>
   </object>
   <object>
     <name>Pothole</name>
-    <pose/>
-    <truncated/>
-    <difficult/>
+    <pose />
+    <truncated />
+    <difficult />
     <bndbox>
-      <xmin>235</xmin>
-      <ymin>958</ymin>
-      <xmax>259</xmax>
-      <ymax>985</ymax>
+      <xmin>116</xmin>
+      <ymin>473</ymin>
+      <xmax>128</xmax>
+      <ymax>486</ymax>
     </bndbox>
   </object>
   <object>
     <name>Transverse crack</name>
-    <pose/>
-    <truncated/>
-    <difficult/>
+    <pose />
+    <truncated />
+    <difficult />
     <bndbox>
-      <xmin>236</xmin>
-      <ymin>1880</ymin>
-      <xmax>317</xmax>
-      <ymax>1909</ymax>
+      <xmin>117</xmin>
+      <ymin>928</ymin>
+      <xmax>157</xmax>
+      <ymax>943</ymax>
     </bndbox>
   </object>
 </annotation>

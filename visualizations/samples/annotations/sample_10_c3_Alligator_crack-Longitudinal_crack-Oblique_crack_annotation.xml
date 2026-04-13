@@ -1,61 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
 <annotation>
-  <folder/>
+  <folder />
   <filename>tb_00530_bottom_right.jpg</filename>
-  <database/>
-  <annotation/>
-  <image/>
+  <database />
+  <annotation />
+  <image />
   <size>
-    <height>1944</height>
-    <width>2592</width>
+    <height>960</height>
+    <width>1280</width>
     <depth>3</depth>
   </size>
-  <segmented/>
+  <segmented />
   <object>
     <name>Alligator crack</name>
-    <pose/>
-    <truncated/>
-    <difficult/>
+    <pose />
+    <truncated />
+    <difficult />
     <bndbox>
-      <xmin>1304</xmin>
-      <ymin>107</ymin>
-      <xmax>1524</xmax>
-      <ymax>591</ymax>
+      <xmin>644</xmin>
+      <ymin>53</ymin>
+      <xmax>753</xmax>
+      <ymax>292</ymax>
     </bndbox>
   </object>
   <object>
     <name>Oblique crack</name>
-    <pose/>
-    <truncated/>
-    <difficult/>
+    <pose />
+    <truncated />
+    <difficult />
     <bndbox>
-      <xmin>1777</xmin>
-      <ymin>11</ymin>
-      <xmax>2564</xmax>
-      <ymax>299</ymax>
+      <xmin>878</xmin>
+      <ymin>5</ymin>
+      <xmax>1266</xmax>
+      <ymax>148</ymax>
     </bndbox>
   </object>
   <object>
     <name>Oblique crack</name>
-    <pose/>
-    <truncated/>
-    <difficult/>
+    <pose />
+    <truncated />
+    <difficult />
     <bndbox>
-      <xmin>943</xmin>
-      <ymin>68</ymin>
-      <xmax>1303</xmax>
-      <ymax>265</ymax>
+      <xmin>466</xmin>
+      <ymin>34</ymin>
+      <xmax>643</xmax>
+      <ymax>131</ymax>
     </bndbox>
   </object>
   <object>
     <name>Longitudinal crack</name>
-    <pose/>
-    <truncated/>
-    <difficult/>
+    <pose />
+    <truncated />
+    <difficult />
     <bndbox>
-      <xmin>126</xmin>
-      <ymin>1333</ymin>
-      <xmax>263</xmax>
-      <ymax>1739</ymax>
+      <xmin>62</xmin>
+      <ymin>658</ymin>
+      <xmax>130</xmax>
+      <ymax>859</ymax>
     </bndbox>
   </object>
 </annotation>

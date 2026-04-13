@@ -37,11 +37,6 @@
       "type": "images"
     },
     {
-      "name": "country_views",
-      "file": "stats/country_views.json",
-      "type": "drilldown"
-    },
-    {
       "name": "samples_summary",
       "file": "stats/samples_summary.json",
       "type": "summary"
