@@ -13,16 +13,13 @@
       "object_detection"
     ],
     "damage_types": [
-      "Alligator crack",
-      "Longitudinal crack",
-      "Oblique crack",
-      "Pothole",
-      "Repair",
-      "Transverse crack"
+      "crack",
+      "pothole"
     ],
     "task_classification": {
       "primary_task": "object_detection"
-    }
+    },
+    "label_taxonomy_version": "road_damage_v1"
   },
   "imaging_setup": {
     "camera": "UAV-mounted RGB camera",
@@ -49,37 +46,49 @@
           "id": 1,
           "name": "Alligator crack",
           "description": "Alligator/fatigue cracking distress",
-          "color": "#294F71"
+          "color": "#294F71",
+          "canonical_name": "crack.alligator",
+          "instances": 603
         },
         {
           "id": 2,
           "name": "Longitudinal crack",
           "description": "Longitudinal crack distress",
-          "color": "#529EE2"
+          "color": "#529EE2",
+          "canonical_name": "crack.longitudinal",
+          "instances": 2994
         },
         {
           "id": 3,
           "name": "Oblique crack",
           "description": "Oblique crack distress",
-          "color": "#7BED54"
+          "color": "#7BED54",
+          "canonical_name": "crack.diagonal",
+          "instances": 1686
         },
         {
           "id": 4,
           "name": "Pothole",
           "description": "Pothole distress",
-          "color": "#A43DC5"
+          "color": "#A43DC5",
+          "canonical_name": "pothole",
+          "instances": 195
         },
         {
           "id": 5,
           "name": "Repair",
           "description": "Patched/repair area",
-          "color": "#CD8C37"
+          "color": "#CD8C37",
+          "canonical_name": "repair.general",
+          "instances": 282
         },
         {
           "id": 6,
           "name": "Transverse crack",
           "description": "Transverse crack distress",
-          "color": "#F6DBA8"
+          "color": "#F6DBA8",
+          "canonical_name": "crack.transverse",
+          "instances": 5398
         }
       ]
     }
@@ -104,7 +113,7 @@
     "split": {
       "data": {
         "n_images": 2440,
-        "percentage": 1.0,
+        "percentage": 1,
         "n_images_with_annotations": 2425,
         "annotation_coverage": 0.9939,
         "dataset_size": "1.98 GB",
@@ -163,5 +172,118 @@
     "article_title": "UAV-PDD2023: A benchmark dataset for pavement distress detection based on UAV images",
     "journal": "Data in Brief",
     "year": 2023
+  },
+  "class_taxonomy": {
+    "version": "road_damage_v1",
+    "classes": [
+      {
+        "canonical_name": "crack.alligator",
+        "display_name": "Alligator Crack",
+        "damage_family": "crack",
+        "damage_subtype": "alligator",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "alligator",
+          "Alligator crack",
+          "Aligator Crack"
+        ],
+        "source_labels": [
+          "Alligator crack"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack.diagonal",
+        "display_name": "Diagonal Crack",
+        "damage_family": "crack",
+        "damage_subtype": "diagonal",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "Oblique crack",
+          "diagonal crack"
+        ],
+        "source_labels": [
+          "Oblique crack"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack.longitudinal",
+        "display_name": "Longitudinal Crack",
+        "damage_family": "crack",
+        "damage_subtype": "longitudinal",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "longitudinal",
+          "Longitudinal crack",
+          "Lane Longitudinal Crack"
+        ],
+        "source_labels": [
+          "Longitudinal crack"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack.transverse",
+        "display_name": "Transverse Crack",
+        "damage_family": "crack",
+        "damage_subtype": "transverse",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "transverse",
+          "Transverse crack",
+          "Transvers Crack"
+        ],
+        "source_labels": [
+          "Transverse crack"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "pothole",
+        "display_name": "Pothole",
+        "damage_family": "pothole",
+        "damage_subtype": "generic",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "pothole"
+        ],
+        "source_labels": [
+          "Pothole"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "repair.general",
+        "display_name": "Repair",
+        "damage_family": "patch_repair",
+        "damage_subtype": "generic",
+        "role": "repair",
+        "is_damage_target": false,
+        "aliases": [
+          "Repair"
+        ],
+        "source_labels": [
+          "Repair"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      }
+    ],
+    "damage_types": [
+      "crack",
+      "pothole"
+    ],
+    "unresolved_labels": []
   }
 }
